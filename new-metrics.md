@@ -24,11 +24,11 @@ The two measures have been simplified from raw numbers to rankings (fully explai
 It shows that Scholars Portal Books has always been used a lot (high *users per mille* rank) but its *interest factor* rose over a few years from medium-low to high.
 (I believe this is because the number of books available there increased greatly, so people kept going back.)
 
-![img](fig/sp_books_ranks.png "Scholars Portal Books: use to interest")
+[![img](fig/sp_books_ranks-500.png "Use and interest in Scholars Portal Books changing over time")](fig/sp_books_ranks.png)
 
 Looking at just the products that have either high or low rankings of users per mille or interest factor lets us make a quadrant chart showing products that either a lot of people or very few people use, and which they either use a lot or very little.
 
-[![img](fig/upm-if-ranks.png "Four quadrants of high or low users per mille and interest factor.")](fig/upm-if-14.png)
+[![img](fig/upm-if-ranks-500.png "Four quadrants of high or low users per mille and interest factor.")](fig/upm-if-ranks.png)
 
 This is an informal article where I present a new idea.
 My colleagues and I began to use these metrics in our collection management, but for various reasons (including the Covid-19 pandemic), have not used them seriously.
@@ -438,7 +438,7 @@ Its UPM rank has always been at 4, which means it has always been in the top qua
             expand_limits(x = c(1, 4), y = c(1, 4)) +
     theme(panel.grid.minor = element_blank())
 
-![img](fig/sp_books_ranks.png "Scholars Portal Books: UPM to IF ranks")
+[![img](fig/sp_books_ranks-500.png "Use and interest in Scholars Portal Books changing over time")](fig/sp_books_ranks.png)
 
 The second chart comes from winnowing down the four quartile ranks to two, then making a quadrant.
 Of the four ranks, 2 and 3 are less interesting than 1 and 4.
@@ -465,7 +465,7 @@ We can make a chart that shows just the 1s and 4s in both metrics.
               strip.background = element_blank()
               )
 
-![img](fig/upm-if-ranks.png)
+[![img](fig/upm-if-ranks-500.png "Four quadrants of high or low users per mille and interest factor.")](fig/upm-if-ranks.png)
 
 This is an easy visual way of showing platforms that are of special interest because of the their unusual use.  The four quadrants are:
 
@@ -486,8 +486,6 @@ This is an easy visual way of showing platforms that are of special interest bec
     These are the big platforms and there probably aren't any surprises here—unless something that is *expected* to be there isn't, which deserves attention.
 
 # Conclusion
-
-We haven't used this seriously at York yet, because of my sabbatical and the pandemic.  Hoping people interested, etc. etc.  Again, methods here not fixed, but is the general idea of these metrics useful or interesting?  I hope so, and would like to hear.
 
 I have defined and presented *users per mille* and *interest factor*, with a couple of examples of how they can be visualized.
 I think that they will prove to be useful tools in managing collections of electronic resources, and will be using them where I work.
