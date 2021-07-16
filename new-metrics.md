@@ -130,14 +130,15 @@ On a slow day one might have 500,000 lines; on a busy one, millions.
 Our first step is to simplify this.
 A shell script, [process-ezproxy-logfile.sh](https://github.com/yorkulibraries/dashyul/blob/master/sources/ezproxy/scripts/process-ezproxy-logfile.sh), calls a number of other scripts that turn the long ugly log file into a neat CSV file with three fields.
 
-The first step is to run the log file through [extract-date-userbarcode-host.rb](https://github.com/yorkulibraries/dashyul/blob/master/sources/ezproxy/scripts/extract-date-userbarcode-host.rb), which takes each line in the log file and picks out, as its name suggests, the date (from the timestamp), the user's barcode (the userid) and the host.  The example above is turned into this:
+The first step is to run the log file through [extract-date-userbarcode-host.rb](https://github.com/yorkulibraries/dashyul/blob/master/sources/ezproxy/scripts/extract-date-userbarcode-host.rb), which takes each line in the log file and picks out, as its name suggests, the date (from the timestamp), the user's barcode (the userid) and the host.
+The example above is turned into this:
 
     2021-06-30,29007019999999,www.jstor.org
 
 That is simpler, but there will still be enormous redundancy.
 One article on JSTOR involves downloading dozens of different things, but we don't care about all that, we just care that on this *date* this particular *user* accessed this host.
 
-EXPLAIN ABOUT USES.
+TODO: EXPLAIN ABOUT USES.
 
 To remove all that, next the data is sorted and uniqued (duplicate lines collapsed to one).
 Dozens or hundreds of requests to the same host (for a down arrow, an up arrow, other images, JavaScript, PDFs, etc.) get boiled down to one line in the CSV.
