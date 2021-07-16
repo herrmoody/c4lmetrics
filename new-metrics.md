@@ -1,3 +1,8 @@
+---
+title: On Two Proposed New Metrics of Electronic Resource Use
+author: William Denton
+---
+
 # Abstract
 
 There are many ways to look at electronic resource use, individually or aggregated.
