@@ -496,6 +496,6 @@ Until then I offer this brief article in the hopes it attracts some interest and
 
 # About the author
 
-[William Denton](https://www.miskatonic.org/) is a librarian, artist and licensed private investigator.
+[William Denton](https://www.miskatonic.org/) ([wdenton@yorku.ca](mailto:wdenton@yorku.ca)) is a librarian, artist and licensed private investigator.
 He works as scholarly analytics librarian at York University in Toronto, Canada, where he has been since 2007.
 His current research is focused on data science, sonification and anthropocene and performance librarianship, and his artistic practice draws on his library work.
