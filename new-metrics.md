@@ -310,9 +310,10 @@ The quartile ranks are discussed below.
 I have not mentioned *annual use factor* before.
 This is a percentage measure of the number of days the platform was used in a year.
 It's part of my code, and so reflected in the output below, but it is not especially interesting so I won't discuss it further.
-However, charting it does show how some platforms are use sporadically but others are used consistently every day of the year.
+However, a histogram shows the varying levels of use frequency.
+At the very right are the platforms used every, or almost every, day.
 
-INSERT AUF IMAGE
+[![img](fig/auf-histogram-500.png "Histogram of annual use factors")](fig/auf-histogram.png)
 
 Here are the metrics for a large platform and a small one:
 
