@@ -295,6 +295,11 @@ The interest factor for the American Mathematical Society in this example is 28.
 
 We can think of the *interest factor* as being "the average number of uses by people who used the platform more than once."
 Simply put, it measure *how much people use a platform*.
+(There is a related metric called the *relative interest factor*, which I will briefly describe here.
+When we look at the users of a particular platform A we can then determine which other platforms they used.
+Knowing that, we can ask: given platform A, what is the interest factor of a platform B for A’s users?
+That tells us the relative interest factor of platform B with respect to A.
+This helps reveal groupings of platforms by subject: relative interest factors of all law resources are high with respect to each other, for example, because they are all frequently used by law students and faculty.)
 
 # Generating the metrics
 
