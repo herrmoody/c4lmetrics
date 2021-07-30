@@ -49,6 +49,8 @@ Someone who prefers another language could do the same work in it.
 I use EZProxy logs for data, but another authentication system would work equally well.
 The implementation and use of the concepts is of more importance than the code used to determine the metrics.
 
+Other *Code4Lib Journal* articles that may interest readers are Qing Zou's [A Novel Open Source Approach to Monitor EZproxy Users’ Activities](https://journal.code4lib.org/articles/10589) (Zou 2015) and Andy Meyer's [Using R and the Tidyverse to Generate Library Usage Reports](https://journal.code4lib.org/articles/13282) (Meyer 2018).
+
 # The data
 
 ## What data to use?
@@ -182,6 +184,8 @@ I define a *use* of a platform as one individual using that platform on a given 
 How *much* they used it does not matter, what matters is that they used it at all.
 
 If you don't use EZProxy then any data cleaning that gets you to this stage will set you up for what's next.
+
+([ezPAARSE](https://github.com/ezpaarse-project/ezpaarse) is a related project that may also be of interest.  It is described as "an open-source software that can ingest your (proxy) log files and show how users access subscribed electronic resources. It filters, extracts and enriches the consultation events that were spotted and produces a CSV file following COUNTER codes of practice.")
 
 # Defining the metrics
 
@@ -505,6 +509,12 @@ I have defined and presented *users per mille* and *interest factor*, with a cou
 I think that they will prove to be useful tools in managing collections of electronic resources, and will be using them where I work.
 Whatever happens, I intend to report more about these and other measures and tools we are using.
 Until then I offer this brief article in the hopes it attracts some interest and others may try users per mille and interest factor themselves.
+
+# Bibliography
+
+Meyer, Andy.  "Using R and the Tidyverse to Generate Library Usage Reports."  \textit{The Code4Lib Journal} 39 (2018). Web. 1 August 2021.  <https://journal.code4lib.org/articles/13282>.
+
+Zou, Qing.  "A Novel Open Source Approach to Monitor EZproxy Users’ Activities."  \textit{The Code4Lib Journal} 29 (2015). Web. 1 August 2021.  <https://journal.code4lib.org/articles/10589>.
 
 # About the author
 
