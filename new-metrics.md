@@ -143,8 +143,6 @@ The example above is turned into this:
 That is simpler, but there will still be enormous redundancy.
 One article on JSTOR involves downloading dozens of different things, but we don't care about all that, we just care that on this *date* this particular *user* accessed this host.
 
-TODO: EXPLAIN ABOUT USES.
-
 To remove all that, next the data is sorted and uniqued (duplicate lines collapsed to one).
 Dozens or hundreds of requests to the same host (for a down arrow, an up arrow, other images, JavaScript, PDFs, etc.) get boiled down to one line in the CSV.
 A log file that held two million lines might generate a CSV file with 30,000 lines.
@@ -178,6 +176,10 @@ To keep things simpler here, I'll continue to use the same fake ID number as an 
 After all this processing the line in the CSV file is now *date*, *userid* and *platform*, and you will have hundreds or thousands of lines like this:
 
     2021-06-30,29007019999999,JSTOR
+
+This line represents one *use* of JSTOR.
+I define a *use* of a platform as one individual using that platform on a given day.
+How *much* they used it does not matter, what matters is that they used it at all.
 
 If you don't use EZProxy then any data cleaning that gets you to this stage will set you up for what's next.
 
